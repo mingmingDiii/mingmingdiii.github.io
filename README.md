@@ -1,2 +1,2 @@
 
-## Here is my [resume](www.mingmingdiii.online).
+## Here is my [resume](http://mingmingdiii.online).
