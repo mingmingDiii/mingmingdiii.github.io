@@ -9,27 +9,20 @@ port: 4000
 safe: true
 url: http://mingmingdiii.online/
 
-# edit this section with your information
-# jekyller.github.io - all contents run on /vitae/
-# for a normal use at the base of the server change it to "/"
+
 baseurl: /
-title: 董明辉的个人简历
+title: 董明辉的个人主页
 name: 董明辉
 email: dmh_hust@126.com
 email_full: dmh_hust@126.com
-website: http://mingmingdiii.online/
-website_full: http://mingmingdiii.online/
+website: mingmingdiii.online
 github: trending
 twitter: twitter
 tel: 17798263772
 tel_full: tel:+86 17798263772
-google_maps: 'http://mingmingdiii.online/'
 address:
-  street: hust
-  postcode: hust
-  city: hust
-  country: hust
-google_analytics: hust
-
+  street: 华中科技大学
+  city: 武汉
+  country: 中国
 # needed for travis-ci build
-exclude: [vendor]
+#exclude: [vendor]
