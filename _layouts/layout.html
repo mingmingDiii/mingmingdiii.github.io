@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css">
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,8 +44,8 @@
         </p>
         <p>
             <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://github.com/{{ site.github }}"><i class="fab fa-github"></i> Github</a> <br/>
+            <a href="https://www.kaggle.com/{{ site.kaggle }}"><i class="fab fa-kaggle"></i> Kaggle</a>
         </p>
     </header>
     <div class="thirteen columns clearfix">
@@ -59,8 +60,6 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
 
 </script>
 </body>
